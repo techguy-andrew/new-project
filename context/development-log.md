@@ -10,6 +10,16 @@
 
 ### Recent Changes
 
+#### 2025-08-29 - Added CLAUDE.md Documentation
+- **Purpose:** Provide guidance for Claude Code AI assistant
+- **Contents:** 
+  - Development commands and workflows
+  - Architecture overview and key decisions
+  - Authentication toggle mechanism explanation
+  - shadcn/ui component management
+  - Performance targets and debugging guide
+- **Impact:** Future Claude instances will have immediate context for effective development
+
 #### 2025-08-29 - Authentication Made Optional
 - **Issue:** Middleware invocation failure on Vercel (500 error)
 - **Root Cause:** Clerk authentication required environment variables not configured
@@ -49,7 +59,7 @@
 To activate Clerk authentication:
 1. Sign up at clerk.com
 2. Add API keys to `.env.local` and Vercel
-3. Rename `src/middleware.ts.disabled` ’ `src/middleware.ts`
+3. Rename `src/middleware.ts.disabled` ï¿½ `src/middleware.ts`
 4. Redeploy
 
 ### Notes
