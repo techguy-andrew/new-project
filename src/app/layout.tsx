@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { ClerkProvider } from '@clerk/nextjs'
 import { Toaster } from '@/components/ui/toaster'
 import './globals.css'
 
@@ -10,23 +9,23 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'New Project',
-  description: 'A modern web application template',
-  keywords: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-  authors: [{ name: 'Your Agency Name' }],
-  creator: 'Your Agency Name',
+  title: 'The Rapid Prototyping Template - 2-Hour MVPs for Agency Developers',
+  description: 'Transform client ideas into working demos in hours, not weeks. The ultimate Next.js + shadcn/ui template for software agency solopreneurs.',
+  keywords: ['Next.js', 'shadcn/ui', 'Rapid Prototyping', 'Agency Template', 'MVP Development', 'TypeScript', 'Tailwind CSS'],
+  authors: [{ name: 'Agency Solopreneurs' }],
+  creator: 'The Rapid Prototyping Community',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://your-domain.com',
-    title: 'New Project',
-    description: 'A modern web application template',
-    siteName: 'New Project',
+    url: 'https://rapid-template.dev',
+    title: 'The Rapid Prototyping Template',
+    description: 'Transform client ideas into working demos in hours, not weeks.',
+    siteName: 'Rapid Prototyping Template',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'New Project',
-    description: 'A modern web application template',
+    title: 'The Rapid Prototyping Template',
+    description: 'Transform client ideas into working demos in hours, not weeks.',
   },
   robots: {
     index: true,
@@ -40,13 +39,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <ClerkProvider>
-      <html lang="en" suppressHydrationWarning>
-        <body className={`${inter.variable} font-sans antialiased`}>
-          {children}
-          <Toaster />
-        </body>
-      </html>
-    </ClerkProvider>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.variable} font-sans antialiased`}>
+        {children}
+        <Toaster />
+      </body>
+    </html>
   )
 }
