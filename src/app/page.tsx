@@ -85,7 +85,7 @@ export default function HomePage() {
               The 2-Hour MVP Timeline
             </h2>
             <p className="text-lg text-muted-foreground max-w-[42rem]">
-              This isn't theory. It's a proven, repeatable process that turns prospects into paying clients.
+              This isn&apos;t theory. It&apos;s a proven, repeatable process that turns prospects into paying clients.
             </p>
           </div>
 
@@ -133,7 +133,7 @@ export default function HomePage() {
                 <Zap className="h-4 w-4" />
                 <AlertDescription className="text-base">
                   <strong>The Reality:</strong> In agency work, the first meeting sets the tone. When you transform a napkin sketch 
-                  into a clickable prototype during lunch, you're not just a developer—you're a magician.
+                  into a clickable prototype during lunch, you&apos;re not just a developer—you&apos;re a magician.
                 </AlertDescription>
               </Alert>
 
@@ -170,15 +170,15 @@ export default function HomePage() {
                     <CardContent>
                       <p className="text-sm text-muted-foreground">
                         Your Day 1 prototype IS your production foundation. That dashboard from the first meeting? 
-                        It's the same one that will handle thousands of users.
+                        It&apos;s the same one that will handle thousands of users.
                       </p>
                     </CardContent>
                   </Card>
                 </div>
 
                 <blockquote className="border-l-4 border-primary pl-6 italic my-8">
-                  "While competitors schedule follow-up meetings to show mockups, you're deploying live prototypes to Vercel. 
-                  A client mentions they need a dashboard? Within an hour, they're clicking through their actual product."
+                  &quot;While competitors schedule follow-up meetings to show mockups, you&apos;re deploying live prototypes to Vercel. 
+                  A client mentions they need a dashboard? Within an hour, they&apos;re clicking through their actual product.&quot;
                 </blockquote>
               </div>
             </div>
@@ -289,7 +289,7 @@ export default function HomePage() {
                       <span>vercel</span>
                     </div>
                     <div className="mt-4 text-primary">
-                      ✨ "Here's your product taking shape in real-time"
+                      ✨ &quot;Here&apos;s your product taking shape in real-time&quot;
                     </div>
                   </div>
                 </CardContent>
@@ -375,7 +375,7 @@ export default function HomePage() {
               <Alert>
                 <TrendingUp className="h-4 w-4" />
                 <AlertDescription>
-                  <strong>The Close:</strong> "Everything you just saw is production-ready. We can launch this week."
+                  <strong>The Close:</strong> &quot;Everything you just saw is production-ready. We can launch this week.&quot;
                 </AlertDescription>
               </Alert>
             </div>
@@ -629,7 +629,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Clients get nervous when they can't see tangible progress. With instant components and live deployments, 
+                  Clients get nervous when they can&apos;t see tangible progress. With instant components and live deployments, 
                   every meeting ends with a new URL showing real improvements. This visibility builds trust and reduces anxiety.
                 </p>
               </CardContent>
@@ -644,7 +644,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  No client wants a template—even when buying a template. shadcn/ui's copy-and-customize model means 
+                  No client wants a template—even when buying a template. shadcn/ui&apos;s copy-and-customize model means 
                   every component can be tailored perfectly. Professional enough to impress, customizable enough to feel bespoke.
                 </p>
               </CardContent>
@@ -670,7 +670,7 @@ export default function HomePage() {
             <Sparkles className="h-4 w-4" />
             <AlertDescription>
               <strong>The Psychology Hack:</strong> When clients see their idea become real during the first meeting, 
-              they're emotionally invested. The sale is already made—you're just negotiating details.
+              they&apos;re emotionally invested. The sale is already made—you&apos;re just negotiating details.
             </AlertDescription>
           </Alert>
         </div>
@@ -689,8 +689,8 @@ export default function HomePage() {
               <span className="block text-primary mt-2">Start Building While Talking.</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-[42rem] mx-auto">
-              This isn't just a template—it's your unfair advantage. While others are still choosing their tech stack, 
-              you're deploying v2. While they're writing proposals, you're showing working products.
+              This isn&apos;t just a template—it&apos;s your unfair advantage. While others are still choosing their tech stack, 
+              you&apos;re deploying v2. While they&apos;re writing proposals, you&apos;re showing working products.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
