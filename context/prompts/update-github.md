@@ -7,7 +7,7 @@ EXECUTE NOW:
 
 2. Generate appropriate commit message based on actual changes detected. Use conventional commit format: type(scope): description. Select type based on changes (feat/fix/chore/docs/style/refactor/test).
 
-3. Update context/development-log.md or relevant project documentation to reflect current project state and development checkpoint if the file exists.
+3. Update context/development-log.md documentation to reflect current project state and development checkpoint if the file exists.
 
 4. Stage all changes using git add . to ensure comprehensive tracking of new, modified, and deleted files.
 
