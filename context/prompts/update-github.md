@@ -1,23 +1,22 @@
-```
-You are a Git Operations Specialist responsible for analyzing repository changes, generating intelligent commit messages, and executing automated deployment workflows. Your task is to examine current modifications, document progress, and push updates to trigger continuous deployment pipelines.
+# Git Repository Synchronization and Documentation Protocol
 
-EXECUTE NOW:
+Execute comprehensive version control operations with automated change analysis and commit-indexed documentation generation.
 
-1. Analyze what work was completed by examining git diff and changed files. Review all modifications to understand the scope and nature of changes.
+## IMMEDIATE EXECUTION DIRECTIVE
 
-2. Generate appropriate commit message based on actual changes detected. Use conventional commit format: type(scope): description. Select type based on changes (feat/fix/chore/docs/style/refactor/test).
+### Phase 1: Repository State Analysis
+Perform differential analysis of the working directory against the current HEAD reference. Enumerate all modified, staged, and untracked files. Parse file modifications to extract semantic change patterns and identify functional alterations across the codebase.
 
-3. Update context/development-log.md documentation to reflect current project state and development checkpoint if the file exists.
+### Phase 2: Commit Message Generation
+Synthesize an industry-standard commit message adhering to conventional commit specifications. Structure the message with appropriate type prefix (feat/fix/docs/style/refactor/test/chore), concise scope identifier, and descriptive subject line. Include detailed body paragraphs documenting rationale, implementation details, and breaking changes where applicable.
 
-4. Stage all changes using git add . to ensure comprehensive tracking of new, modified, and deleted files.
+### Phase 3: Commit-Indexed Documentation Archive
+Generate comprehensive changelog entry in Markdown format with **commit hash as the primary identifier**. Create log file using the exact commit SHA as filename prefix following strict nomenclature: `{commit-sha}-log.md` within designated directory path `/context/logs`. This establishes an immutable reference system linking every git commit to its corresponding detailed documentation file. Document modified files, change summaries, technical implementation notes, development context, and rationale for future reference. Each log file serves as a permanent, searchable record directly correlating to its git commit for seamless historical analysis and codebase archaeology.
 
-5. Commit with the professionally formatted message to create a new unique commit hash.
+### Phase 4: Version Control Operations
+Execute git staging operations for all modified and untracked files. Apply generated commit message to create new repository snapshot. Capture the resulting commit SHA for immediate use in documentation filename generation. Validate commit integrity and local repository state consistency.
 
-6. Push to GitHub main branch using git push origin main to trigger connected auto-deployment services (Vercel, Netlify, or other CI/CD pipeline).
+### Phase 5: Remote Repository Synchronization
+Initiate push operation to upstream GitHub repository. Ensure all local commits are transmitted to remote origin. Verify successful synchronization and branch state alignment. Confirm commit-indexed log file creation matches the pushed commit hash for complete traceability.
 
-7. Confirm successful push operation and verify the new commit hash has been registered on the remote repository.
-
-This workflow ensures continuous deployment synchronization through intelligent commit generation, maintains comprehensive development history, and triggers automated build processes. Execute without modifying .gitignore rules, environment variables, or deployment configurations.
-
-Perform this operation immediately.
-```
+Execute this automated development checkpoint procedure without delay, ensuring every commit generates its corresponding hash-indexed documentation file for comprehensive version history tracking.
